@@ -1,0 +1,633 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-07-05 19:01+0500\n"
+"PO-Revision-Date: 2021-07-05 21:48+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: H:/wamp64/www/plugins/inbox\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: inc\n"
+"X-Poedit-SearchPath-1: pro/templates\n"
+"X-Poedit-SearchPath-2: index.php\n"
+"X-Poedit-SearchPath-3: pro/inbox-pro.php\n"
+
+#: inc/functions.php:143
+msgid "You've received a message from"
+msgstr "Has recibido un mensaje de"
+
+#: inc/functions.php:145
+msgid "left you a message in your inbox"
+msgstr "te dejó un mensaje en tu bandeja de entrada"
+
+#: inc/functions.php:145
+msgid "View and Reply"
+msgstr "Ver y responder"
+
+#: inc/functions.php:203
+msgid ""
+"Terms of Service reminder: Providing email, Skype, or phone number is only "
+"allowed if it is needed as part of the service."
+msgstr ""
+"Recordatorio de términos de servicio: solo se permite proporcionar correo "
+"electrónico, Skype o número de teléfono si es necesario como parte del "
+"servicio."
+
+#: inc/functions.php:203
+msgid "Otherwise, all communication must go through "
+msgstr "De lo contrario, toda comunicación debe pasar por "
+
+#: inc/functions.php:229
+msgid "Threads"
+msgstr "Hilos"
+
+#: inc/functions.php:261 inc/functions.php:475 inc/inbox_admin_view.php:7
+#: inc/inbox_settings.php:5
+msgid "You do not have sufficient permissions to access this page."
+msgstr "No tiene permisos suficientes para acceder a esta página."
+
+#: inc/functions.php:525 inc/inbox_settings.php:36
+msgid "Settings"
+msgstr "Configuraciones"
+
+#: inc/functions.php:539 inc/inbox_settings.php:93
+msgid "Go Premium"
+msgstr "Hazte Premium"
+
+#: inc/functions.php:684 inc/functions.php:730 inc/functions.php:795
+#: inc/functions.php:1041 inc/functions.php:3037 inc/functions.php:3210
+#: inc/functions.php:3272
+msgid "Sorry, your nonce did not verify."
+msgstr "Lo sentimos, su nonce no se verificó."
+
+#: inc/functions.php:986
+msgid "Please type a message to send."
+msgstr "Escriba un mensaje para enviar."
+
+#: inc/functions.php:987
+msgid "Please provide message deliver date."
+msgstr "Indique la fecha de entrega del mensaje."
+
+#: inc/functions.php:1499 inc/functions.php:1689
+msgid "Sorry, you are not allowed to access this thread."
+msgstr "Lo sentimos, no puedes acceder a este hilo."
+
+#: inc/functions.php:1725 inc/functions.php:1741
+msgid "Sorry, you are not allowed to access the premium features."
+msgstr "Lo sentimos, no puedes acceder a las funciones premium."
+
+#: inc/functions.php:1942
+msgid "Contact"
+msgstr "Contacto"
+
+#: inc/functions.php:1968 inc/functions.php:2021 inc/functions.php:2067
+msgid "Type message here to send"
+msgstr "Escriba un mensaje aquí para enviar"
+
+#: inc/functions.php:1970 inc/functions.php:2003 inc/functions.php:2069
+msgid "Send Message"
+msgstr "Enviar mensaje"
+
+#: inc/functions.php:1970 inc/functions.php:2025
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: inc/functions.php:2014
+msgid "Contact Seller"
+msgstr "Contacte al vendedor"
+
+#: inc/functions.php:2033
+msgid "Login to Send Message"
+msgstr "Inicie sesión para enviar mensaje"
+
+#: inc/functions.php:2259 inc/functions.php:2306 inc/functions.php:2661
+msgid "Please wait, there is some problem in the system."
+msgstr "Por favor espere, hay algún problema en el sistema."
+
+#: inc/functions.php:2280 inc/functions.php:2326 inc/functions.php:2378
+msgid "Your message has been sent successfully."
+msgstr "Tu mensaje ha sido enviado exitosamente."
+
+#: inc/functions.php:2354 inc/functions.php:2404
+msgid "Sorry!"
+msgstr "¡Lo siento!"
+
+#: inc/functions.php:2354
+msgid "Please login, only registered users are allowed to contact."
+msgstr "Inicie sesión, solo los usuarios registrados pueden contactar."
+
+#: inc/functions.php:2404
+msgid ""
+"Please login, only registered users are allowed to update timezone settings."
+msgstr ""
+"Inicie sesión, solo los usuarios registrados pueden actualizar la "
+"configuración de la zona horaria."
+
+#: inc/functions.php:2422
+msgid "Timezone settings are saved."
+msgstr "Se guarda la configuración de la zona horaria."
+
+#: inc/functions.php:2719
+msgid "Your request has been completed successfully."
+msgstr "Su solicitud ha sido completada con éxito."
+
+#: inc/functions.php:2789
+msgid "Need to contact sellers?"
+msgstr "¿Necesita contactar a los vendedores?"
+
+#: inc/functions.php:2789
+msgid "Need to contact seller?"
+msgstr "¿Necesita contactar al vendedor?"
+
+#: inc/functions.php:2837
+msgid "Inbox"
+msgstr "Bandeja de entrada"
+
+#: inc/functions.php:3094
+msgid "scheduled"
+msgstr "programado"
+
+#: inc/functions.php:3107 inc/inbox_settings.php:762
+msgid "Now"
+msgstr "Ahora"
+
+#: inc/functions.php:3109
+msgid "Load"
+msgstr "Carga"
+
+#: inc/functions.php:3111
+msgid "Send"
+msgstr "Enviar"
+
+#: inc/functions.php:3112 inc/inbox_settings.php:708
+msgid "Delete"
+msgstr "Eliminar"
+
+#: inc/functions.php:3128 inc/inbox_admin_view.php:80
+msgid "No message found."
+msgstr "No se encontró ningún mensaje."
+
+#: inc/inbox_admin_view.php:3 inc/inbox_settings.php:1
+msgid "No script kiddies please!"
+msgstr "No hay script kiddies por favor!"
+
+#: inc/inbox_admin_view.php:19 inc/inbox_view_single.php:11
+#: inc/inbox_view_single_help.php:8
+msgid "Back"
+msgstr "Espalda"
+
+#: inc/inbox_admin_view.php:21 inc/inbox_settings.php:54
+msgid "Admin Messages"
+msgstr "Mensajes de administrador"
+
+#: inc/inbox_admin_view.php:56 pro/inbox-pro.php:304
+msgid "New"
+msgstr "Nuevo"
+
+#: inc/inbox_settings.php:46
+msgid "General Settings"
+msgstr "Configuración general"
+
+#: inc/inbox_settings.php:48
+msgid "Pages & Shortcodes"
+msgstr "Páginas y códigos cortos"
+
+#: inc/inbox_settings.php:50
+msgid "Communication"
+msgstr "Comunicación"
+
+#: inc/inbox_settings.php:52
+msgid "Support Departments"
+msgstr "Departamentos de apoyo"
+
+#: inc/inbox_settings.php:56
+msgid "Google+ API"
+msgstr "API de Google+"
+
+#: inc/inbox_settings.php:58
+msgid "Install Plugins"
+msgstr "Instalar complementos"
+
+#: inc/inbox_settings.php:62
+msgid "Advance Settings"
+msgstr "Configuraciones avanzadas"
+
+#: inc/inbox_settings.php:64
+msgid "Live Chat"
+msgstr "En Vivo charla"
+
+#: inc/inbox_settings.php:93
+msgid "Click here for Premium Version"
+msgstr "Haga clic aquí para obtener la versión Premium"
+
+#: inc/inbox_settings.php:98
+msgid "Close"
+msgstr "Cerrar"
+
+#: inc/inbox_settings.php:100
+msgid "Success!"
+msgstr "¡Éxito!"
+
+#: inc/inbox_settings.php:100
+msgid "Options are updated successfully."
+msgstr "Las opciones se actualizan correctamente."
+
+#: inc/inbox_settings.php:110
+msgid "Contact Seller Link?"
+msgstr "Enlace de contacto del vendedor?"
+
+#: inc/inbox_settings.php:110
+msgid "(Front-end)"
+msgstr "(Interfaz)"
+
+#: inc/inbox_settings.php:119
+msgid "Click here for demo"
+msgstr "Haga clic aquí para ver una demostración"
+
+#: inc/inbox_settings.php:125
+msgid "Image Slider"
+msgstr "Control deslizante de imagen"
+
+#: inc/inbox_settings.php:156
+msgid "Following pages are automatically created and ready to use."
+msgstr ""
+"Las siguientes páginas se crean automáticamente y están listas para usar."
+
+#: inc/inbox_settings.php:156
+msgid "You can insert them in relevant menus."
+msgstr "Puede insertarlos en los menús relevantes."
+
+#: inc/inbox_settings.php:170
+msgid "ID"
+msgstr "CARNÉ DE IDENTIDAD"
+
+#: inc/inbox_settings.php:172 inc/inbox_settings.php:518
+#: inc/inbox_settings.php:674
+msgid "Title"
+msgstr "Título"
+
+#: inc/inbox_settings.php:174
+msgid "Shortcode"
+msgstr "Código corto"
+
+#: inc/inbox_settings.php:176 inc/inbox_settings.php:276
+#: inc/inbox_settings.php:392 inc/inbox_settings.php:680
+#: inc/inbox_settings.php:801
+msgid "Actions"
+msgstr "Comportamiento"
+
+#: inc/inbox_settings.php:190 inc/inbox_settings.php:708
+msgid "Edit"
+msgstr "Editar"
+
+#: inc/inbox_settings.php:190 inc/inbox_settings.php:336
+#: inc/inbox_settings.php:468
+msgid "View"
+msgstr "Ver"
+
+#: inc/inbox_settings.php:229
+msgid "Write here the words to disallow in communication threads"
+msgstr "Escriba aquí las palabras para no permitir en hilos de comunicación"
+
+#: inc/inbox_settings.php:229
+msgid "Examples"
+msgstr "Ejemplos"
+
+#: inc/inbox_settings.php:231
+msgid "Enter the words to disallow in communication threads"
+msgstr "Ingrese las palabras para no permitir en hilos de comunicación"
+
+#: inc/inbox_settings.php:239 inc/inbox_settings.php:776
+msgid "Update"
+msgstr "Actualizar"
+
+#: inc/inbox_settings.php:262
+msgid "Communication threads from all users."
+msgstr "Hilos de comunicación de todos los usuarios."
+
+#: inc/inbox_settings.php:270 inc/inbox_settings.php:386
+msgid "Participants"
+msgstr "Participantes"
+
+#: inc/inbox_settings.php:272 inc/inbox_settings.php:388
+msgid "Last Message"
+msgstr "Ultimo mensaje"
+
+#: inc/inbox_settings.php:274 inc/inbox_settings.php:390
+#: inc/inbox_settings.php:768 inc/inbox_settings.php:797
+msgid "Date"
+msgstr "Fecha"
+
+#: inc/inbox_settings.php:379
+msgid "Communication threads from all departments."
+msgstr "Hilos de comunicación de todos los departamentos."
+
+#: inc/inbox_settings.php:498
+msgid ""
+"You may define different departments and assign your staff accordingly to "
+"manage support tickets"
+msgstr ""
+"Puede definir diferentes departamentos y asignar a su personal en "
+"consecuencia para administrar los tickets de soporte"
+
+#: inc/inbox_settings.php:498
+msgid "Video Tutorial"
+msgstr "Video tutorial"
+
+#: inc/inbox_settings.php:526 inc/inbox_settings.php:676
+msgid "Description"
+msgstr "Descripción"
+
+#: inc/inbox_settings.php:532
+msgid "Add"
+msgstr "Añadir"
+
+#: inc/inbox_settings.php:532
+msgid "or"
+msgstr "o"
+
+#: inc/inbox_settings.php:538
+msgid "Add Department"
+msgstr "Agregar departamento"
+
+#: inc/inbox_settings.php:600
+msgid "Staff Members"
+msgstr "Los miembros del personal"
+
+#: inc/inbox_settings.php:640 inc/inbox_settings.php:845
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: inc/inbox_settings.php:678 inc/inbox_settings.php:708
+msgid "Staff"
+msgstr "Personal"
+
+#: inc/inbox_settings.php:745
+msgid "Alert!"
+msgstr "¡Alerta!"
+
+#: inc/inbox_settings.php:745
+msgid ""
+"This is a premium feature. You may add/update messages but cannot send in "
+"FREE version."
+msgstr ""
+"Esta es una característica premium. Puede agregar / actualizar mensajes, "
+"pero no puede enviarlos en la versión GRATUITA."
+
+#: inc/inbox_settings.php:753
+msgid "New Message"
+msgstr "Nuevo mensaje"
+
+#: inc/inbox_settings.php:771
+msgid "weeks"
+msgstr "semanas"
+
+#: inc/inbox_settings.php:777
+msgid "Save"
+msgstr "Salvar"
+
+#: inc/inbox_settings.php:778
+msgid "Save & Send"
+msgstr "Guardar y enviar"
+
+#: inc/inbox_settings.php:787
+msgid "Messages History"
+msgstr "Historial de mensajes"
+
+#: inc/inbox_settings.php:798
+msgid "Message"
+msgstr "Mensaje"
+
+#: inc/inbox_settings.php:799
+msgid "Status"
+msgstr "Estado"
+
+#: inc/inbox_settings.php:800
+msgid "Deliver Date"
+msgstr "Fecha de entrega"
+
+#: inc/inbox_settings.php:833
+msgid "Please enter your API key to make Google Maps work on relevant pages."
+msgstr ""
+"Ingrese su clave API para que Google Maps funcione en páginas relevantes."
+
+#: inc/inbox_settings.php:837
+msgid "Web Services"
+msgstr "Servicios web"
+
+#: inc/inbox_settings.php:837
+msgid "Directions API"
+msgstr "Instrucciones API"
+
+#: inc/inbox_settings.php:837
+msgid "Get API Key"
+msgstr "Obtener clave API"
+
+#: inc/inbox_settings.php:861
+msgid "Following plugins are (maybe) required to be installed and activated."
+msgstr ""
+"Se requieren (tal vez) los siguientes complementos para ser instalados y "
+"activados."
+
+#: inc/inbox_settings.php:893
+msgid "Click here to activate"
+msgstr "Haga clic aquí para activar"
+
+#: inc/inbox_settings.php:905
+msgid "Click here to install"
+msgstr "Haga clic aquí para instalar"
+
+#: inc/inbox_settings.php:917
+msgid "Installed"
+msgstr "Instalado"
+
+#: inc/inbox_settings.php:917
+msgid "Activated"
+msgstr "Activado"
+
+#: inc/inbox_settings.php:950
+msgid "Premium"
+msgstr "Prima"
+
+#: inc/inbox_settings.php:950
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: inc/inbox_settings.php:956
+msgid "This shortcode will provide a search bar filter to find user profiles."
+msgstr ""
+"Este código corto proporcionará un filtro de barra de búsqueda para "
+"encontrar perfiles de usuario."
+
+#: inc/inbox_settings.php:956
+msgid "It can be used on any page, initially it is developed for inbox."
+msgstr ""
+"Se puede usar en cualquier página, inicialmente está desarrollado para la "
+"bandeja de entrada."
+
+#: inc/inbox_settings.php:964
+msgid "This shortcode will provide a list of user profiles."
+msgstr "Este shortcode proporcionará una lista de perfiles de usuario."
+
+#: inc/inbox_settings.php:964
+msgid "It can be used on any page."
+msgstr "Se puede usar en cualquier página."
+
+#: inc/inbox_settings.php:971
+msgid "Copy"
+msgstr "Copiar"
+
+#: inc/inbox_settings.php:971
+msgid "Author"
+msgstr "Autor"
+
+#: inc/inbox_settings.php:975
+msgid "Live Chat Settings"
+msgstr "Configuración de chat en vivo"
+
+#: inc/inbox_settings.php:984
+msgid "Settings saved successfully."
+msgstr "Configuración guardada correctamente."
+
+#: inc/inbox_settings.php:987
+msgid "Ajax based chat"
+msgstr "Chat basado en Ajax"
+
+#: inc/inbox_settings.php:988
+msgid ""
+"If checkbox is checked messages will send through ajax and on each message "
+"page will refresh."
+msgstr ""
+"Si la casilla de verificación está marcada, los mensajes se enviarán a "
+"través de ajax y se actualizarán las páginas de cada mensaje."
+
+#: inc/inbox_settings.php:1000
+msgid "Already Exist"
+msgstr "Ya existe"
+
+#: inc/inbox_settings.php:1006
+msgid "Author.php file already exist."
+msgstr "El archivo Author.php ya existe."
+
+#: inc/inbox_settings.php:1006
+msgid "Are you want to replace it?"
+msgstr "¿Quieres reemplazarlo?"
+
+#: inc/inbox_settings.php:1009
+msgid "Yes"
+msgstr "si"
+
+#: inc/inbox_settings.php:1010
+msgid "No"
+msgstr "No"
+
+#: inc/inbox_view.php:12
+msgid "Conversations"
+msgstr "Conversaciones"
+
+#: inc/inbox_view.php:23
+msgid "Email Notifications"
+msgstr "Notificaciónes de Correo Electrónico"
+
+#: inc/inbox_view.php:26
+msgid "ON"
+msgstr "EN"
+
+#: inc/inbox_view.php:27
+msgid "OFF"
+msgstr "APAGADO"
+
+#: inc/inbox_view.php:40
+msgid "Messages"
+msgstr "Mensajes"
+
+#: inc/inbox_view.php:42
+msgid "Support"
+msgstr "Apoyo"
+
+#: inc/inbox_view.php:44
+msgid "All"
+msgstr "Todas"
+
+#: inc/inbox_view.php:51
+msgid "Timezone Settings"
+msgstr "Configuración de zona horaria"
+
+#: inc/inbox_view.php:216
+msgid "There are no messages in your inbox."
+msgstr "No hay mensajes en su bandeja de entrada."
+
+#: inc/profiles.php:186
+msgid "Type any location here to filter the results"
+msgstr "Escriba cualquier ubicación aquí para filtrar los resultados"
+
+#: inc/profiles.php:186
+msgid "Filter"
+msgstr "Filtrar"
+
+#: pro/inbox-pro.php:80
+msgid "New message received."
+msgstr "Nuevo mensaje recibido."
+
+#: pro/inbox-pro.php:81 pro/inbox-pro.php:213
+msgid "Click Here"
+msgstr "Haga clic aquí"
+
+#: pro/inbox-pro.php:82
+msgid "to view."
+msgstr "para ver."
+
+#: pro/inbox-pro.php:213
+msgid "Seller is online"
+msgstr "El vendedor está en línea"
+
+#: pro/inbox-pro.php:213
+msgid "for live chat or leave message here."
+msgstr "para chat en vivo o dejar un mensaje aquí."
+
+#: pro/inbox-pro.php:308
+msgid "Site Admin"
+msgstr "Administrador del sitio"
+
+#: pro/templates/users_list.php:52 pro/templates/users_strip.php:52
+msgid "Search"
+msgstr "Buscar"
+
+#: pro/templates/users_list.php:52 pro/templates/users_strip.php:52
+msgid "Profiles"
+msgstr "Perfiles"
+
+#: pro/templates/users_list.php:58 pro/templates/users_strip.php:58
+msgid "Visit profiles, check services and other items."
+msgstr "Visite perfiles, consulte servicios y otros artículos."
+
+#: pro/templates/users_list.php:58 pro/templates/users_strip.php:58
+msgid "Contact or request custom orders, do not spam or bother anybody."
+msgstr ""
+"Contacte o solicite pedidos personalizados, no envíe spam ni moleste a nadie."
+
+#: pro/templates/users_list.php:81
+msgid "Name"
+msgstr "Nombre"
+
+#: pro/templates/users_list.php:82
+msgid "Age"
+msgstr "Años"
+
+#: pro/templates/users_list.php:83
+msgid "Services/Products"
+msgstr "Servicios / Productos"
+
+#: pro/templates/users_list.php:84
+msgid "Company"
+msgstr "Empresa"
+
+#: pro/templates/users_list.php:85
+msgid "Location"
+msgstr "Ubicación"

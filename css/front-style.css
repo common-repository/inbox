@@ -1,0 +1,285 @@
+/* CSS Document */
+
+.wp_inbox_message_success{
+
+	display:none;
+
+}
+
+.wp_inbox_message_boxes{
+
+	width:100%;
+
+	float:left;
+
+}
+
+.wp_inbox_message_box_toggle{
+
+	clear:both;
+
+}
+
+.wp_inbox_products{
+
+	margin:0;
+
+	padding:0;
+
+}
+
+.wp_inbox_products li{
+
+	list-style:none;
+
+	float:left;
+
+	margin: 0 10px 10px 0;
+
+}
+
+.wp_inbox_products li h6{
+
+	width:100%;
+
+	float:left;
+
+}
+
+.wp_inbox_products li img{
+
+	height:100px;
+
+	margin-bottom:10px;
+
+}
+
+.wp-inbox-messages, 
+.entry-content .wp-inbox-messages,
+.entry-content .wp_inbox_help_page
+{
+	width:100%;
+	max-width: none;
+}
+
+.wp-inbox-messages table.table-filter tr td{
+	border: 1px solid #e0dede;
+}
+
+.wp-inbox-messages .panel-footer .wp_inbox_message_box_toggle_div
+{
+	clear: none;
+	margin: 0;
+	float: none;
+}
+
+.wp-inbox-messages .panel-body
+{
+	max-height: 75vh;
+	overflow-y: auto;
+}
+
+.wp-inbox-messages .panel-body::-webkit-scrollbar {
+	width: 10px;
+  }
+
+.wp-inbox-messages .panel-body::-webkit-scrollbar-thumb {
+background: rgb(139, 157, 177); 
+border-radius: 5px;
+}
+
+.wp-inbox-messages .panel-footer .wp_inbox_message_success
+{
+	margin-top: 10px;
+}
+
+
+
+.entry-content .wp_inbox_help_page .form-group
+{
+
+	margin-bottom: 20px;
+}
+
+.wp_inbox_message_box_toggle_div .button,
+.wp_help_message_send{
+
+	margin-top: 10px;
+}
+
+.wp_inbox_message_box_toggle_div .button.wp_inbox_message_cancel{
+	margin-left: 10px;
+}
+
+.wp-inbox-messages .pull-right{
+
+	margin-right:14px !important;
+
+}
+
+.wp-inbox-messages h4.title a{
+}
+
+.wp-inbox-messages h4.title a:hover{
+	text-decoration:none;
+}
+
+.wp_inbox_message_box_toggle_div{
+
+	clear:both;
+
+	margin:20px 0 20px 0;
+
+	float:right;
+
+}
+
+
+
+.wp_inbox_message_box_toggle_div,
+.wp_inbox_message_box_toggle_div textarea{
+	width:100%;
+}
+.woocommerce-MyAccount-navigation-link--inbox.unread a:after{		
+	font-family: "FontAwesome";
+	content: "\f111";
+	color: #F00;
+	position: relative;
+	right: -4px;
+	font-size: 8px;
+	top: -12px;
+}
+.wp_inbox_email_notifications {
+	position: relative;
+	top: 10px;
+	left:10px;
+}
+.wp_inbox_email_notifications > strong {
+	font-size: 14px;
+	font-weight: normal;
+}
+.wp_inbox_email_notifications .btn-group.btn-toggle {
+	margin:0 0 10px 0;
+}
+.help-dept-selection ul li{
+	list-style:none;
+}
+/* .form-horizontal.form-horizontal .form-group{
+	margin:0;
+} */
+
+ul.wp_inbox_user_strip,
+ul.wp_inbox_user_list{
+	margin:0;
+	padding:0;
+	float:left;
+	width:100%;
+}
+.wp_inbox_user_strip li,
+ul.wp_inbox_user_list li{
+	float:left;
+	margin-right:0px;
+	list-style:none;	
+}
+.wp_inbox_user_strip li{
+	
+}
+ul.wp_inbox_user_list li{
+	width:50%;	
+}
+.wp_inbox_user_strip li.visible{
+	display:inline-block;
+}
+ul.wp_inbox_user_list li.visible{
+	display:inline-block;
+}
+ul.wp_inbox_user_list li.invisible{
+	display:none;
+}
+
+.wp_inbox_user_strip li a,
+ul.wp_inbox_user_list li a{
+	cursor:pointer;
+}
+.wp_inbox_user_strip li a p,
+ul.wp_inbox_user_list li a p{
+	display:none;
+}
+.wp_inbox_user_strip li img{
+	height:58px;
+	padding:2px;
+}
+ul.wp_inbox_user_list li img{
+	height:150px;
+	padding:4px;
+}
+.wp_inbox_user_strip li a:hover img,
+ul.wp_inbox_user_list li a:hover img{
+	background:rgba(0,0,0,0.2);
+}
+.wp_inbox_users_search_wrapper {
+	background-color: rgba(251,77,50, 0);
+	padding: 20px;
+	border: 1px solid rgba(251,77,50,0.1);
+	margin: 10px 0 40px 0;
+}
+.wp_inbox_users_search {	
+	padding: 30px 10px !important;
+	font-size: 16px !important;
+	color: #600 !important;
+	border: 4px solid rgba(0,0,0,0.1) !important;
+	border-radius: 44px !important;
+	text-align: center;
+	background-color:#fff;
+}
+ul.wp_inbox_user_list li ul {
+	margin: 6px 0 0 22px;
+	padding: 0;
+	width: 300px;
+	float: left;
+}
+.content-holder #content ul.wp_inbox_user_list > li{
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	padding: 8px 0 8px 8px;
+	margin:0;
+}
+.content-holder #content ul.wp_inbox_user_list > li a:focus,
+.content-holder #content ul.wp_inbox_user_list > li a:active,
+.content-holder #content ul.wp_inbox_user_list > li a:hover{
+	color:#000;
+}
+.content-holder #content ul.wp_inbox_user_list > li ul > li {
+	line-height: 12px;
+	font-size: 12px;
+	float: none;
+}
+ul.wp_inbox_user_list li img {
+	height: 150px;
+	padding: 4px;
+	float: left;
+}
+.btn.btn-info:hover{
+	color:#FFF;
+}
+
+.wp_inbox_help_page .department-dropdown .btn,
+.wp_inbox_help_page .department-dropdown ul
+{
+	min-width: 200px;
+}
+
+.wp_inbox_help_page .dp_online_alert{
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+select[name="wp_inbox_tz"] {
+	width: 110px;
+	font-size: 14px;
+	position: relative;
+	top: -2px;
+	border: 0;
+	background: transparent;
+	color: #269abc;
+	cursor: pointer;
+}

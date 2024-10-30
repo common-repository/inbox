@@ -1,0 +1,516 @@
+@charset "utf-8";
+
+
+
+/* CSS Document */
+
+
+
+	div.wpinbox_settings_div {
+
+	}
+
+	div.wpinbox_settings_div h2{
+
+		text-align: left;
+
+	}
+
+	
+
+	.wp_inbox_tab{
+
+	}
+
+	.wp_inbox_tab a{
+
+		cursor:pointer;
+
+	}	
+
+	
+
+		
+
+	
+
+
+
+	.wpinbox_settings_div table{
+
+		margin-top:30px;
+
+		width:100%;
+
+	}
+
+	
+
+	.wpinbox_settings_div table thead{
+
+	}
+
+
+
+	.wpinbox_settings_div table thead th{
+
+		text-align:left;
+
+	}
+
+
+
+
+
+
+
+	.wpinbox_settings_div a.nav-tab{
+
+		cursor:pointer;
+
+	}
+
+	.wpinbox_settings_div .hides{
+
+		display:none;
+
+	}
+
+	.wpinbox_settings_div .wp_inbox_notes{
+
+		padding:10px 0 0 0;
+
+	}
+
+	
+
+	.wp_inbox_department_staff,
+
+	.wp_inbox_department_edit,
+
+	.wp_inbox_department_delete{
+
+		cursor:pointer;
+
+	}
+
+	.nav-tab-wrapper a{
+
+	}
+
+	.nav-tab-wrapper a:hover{
+
+		text-decoration:none;
+
+	}
+
+	.nav-tab-wrapper a.nav-tab-active {
+
+		background-color: #fff;
+
+		border-bottom: 1px solid #fff;
+
+
+
+	}
+
+
+
+	.staff-members{
+
+		margin-top:40px;
+
+		display:none;
+
+	}
+
+	.staff-members ul{
+
+		list-style:inside none;
+
+		margin:0;
+
+		padding:0;
+
+	}
+
+	.staff-members ul li{
+
+		margin-left:20px;
+
+	}
+
+	div.wp_inbox_add_dept,
+
+	a.add_edit{
+
+		display:none;
+
+	}
+
+	a.wp_inbox_add_dept{
+
+		cursor:pointer;
+
+	}
+
+	button.wp_inbox_add_dept {
+
+		font-size: 16px;
+
+		margin: 30px 0;
+
+		padding: 20px 90px;
+
+	}
+
+	.wp_inbox_dept_items{
+
+	}
+
+	.wp_inbox_dept_items tr td{
+
+		padding:10px;
+
+		
+
+	}
+
+	.wp_inbox_dept_items tr.selected{
+
+		border-right:10px solid #F00;
+
+		background-color:rgba(255,0,10, 0.2);
+
+	}
+
+	.wp_inbox_dept_items tr.selected td{
+
+		
+
+	}
+
+	/* #Tablet 780px - Mobile 320px */
+
+
+
+	textarea[name="wp_inbox_messages"]{
+
+		width:50%;
+
+		height:100px;
+
+	}
+	
+	.wpinbox_settings_div .advance_settings ul{
+		margin:0;
+		padding:0;
+	}
+	.wpinbox_settings_div .advance_settings ul li{
+		list-style:none;
+		line-height:30px;
+	}
+	.wpinbox_settings_div .advance_settings ul li div{
+		width:100%;		
+		background-color:rgba(233,223,153,0.5);		
+		float:left;
+		display:none;
+		text-align:center;
+		padding:40px 20px;
+	}
+	.wpinbox_settings_div .advance_settings ul li a{
+		cursor:pointer;
+		font-size:14px;
+		text-align:left;
+		float:left;
+		width:100%;
+	}
+	.wpinbox_settings_div .advance_settings ul li div img{
+		margin:0 auto;
+		height:200px;		
+		cursor:pointer;
+	}
+
+
+	.live_chat_settings_container #wp_inbox_ajax_based_chat{
+
+		margin: 5px 0 10px 5px;
+		width: 15px;
+		height: 15px;
+	}
+	
+	.live_chat_settings_container #wp_inbox_ajax_based_chat:checked:before{
+	
+		margin: -3px 0 0 -4px;
+		width: 20px;
+		height: 20px;
+	}
+	
+	
+	
+	
+	
+	
+	/* CSS Document */
+	li.current a[href="options-general.php?page=wpinbox"],
+	li.current:hover a[href="options-general.php?page=wpinbox"]{
+		background: url('../img/folder.png') no-repeat !important;
+		background-position: 11px 7px !important;
+		padding-left: 30px !important;
+		background-color: rgba(255,255,255,0.3) !important;
+		padding-bottom: 8px !important;
+	}
+	li.current:hover a[href="options-general.php?page=wpinbox"]{
+		background-color: rgba(255,255,255,0.4) !important;
+	}
+	
+	.wpinbox_folders{
+		float:left;
+		width:68%;
+		padding: 0 10px;
+	}
+	
+	.wpinbox_log{
+		width:32%;
+		border:1px solid #666;
+		padding:10px;
+		background-color:#333;
+		color:#fff;
+		float:right;
+		min-height:400px;
+		overflow-y:auto;
+		overflow-x: hidden;
+		
+	}
+	.wpinbox_list ul li > span {
+		float: left;
+		width: 100%;
+		height: 20px;
+		padding: 30px 0 0 25px;
+		position: relative;
+		background: transparent;
+		visibility:hidden;
+	}
+	.wpinbox_list ul li:hover > span{
+		visibility:visible;
+	}
+	a.wpd-edit,
+	a.wpd-move,
+	a.wpd-trash{
+		background: url('../img/edit.png') no-repeat;
+		float: left;
+		width: 16px;
+		height: 16px;
+		margin: 0 10px 0 0;
+		cursor:pointer;
+		position: absolute;
+		top: 5px;
+	}
+	
+	a.wpd-edit{
+	
+		left: 20px;
+	
+	}
+	
+	a.wpd-trash{
+	
+		background: url('../img/trash.png') no-repeat;
+		margin: 0;
+		position: absolute;
+		right: 20px;
+	
+	}
+	
+	a.wpd-move{
+	
+		background: url('../img/move.png') no-repeat;
+		margin: 0;
+		position: absolute;
+		right: 50px;
+	
+	}
+	
+	.wpd_action_span{
+	
+	}
+	
+	.wpinbox-options{
+	}
+	.wpinbox-options ul{
+	}
+	.wpinbox-options ul li {
+		width: 100%;
+		float: left;
+	}
+	
+	.wpinbox_move_folder_to{
+		display: none;
+	}
+	.wpinbox_move_folder_to select {
+		border: 1px solid rgba(0,0,0,0.1);
+		margin: 4px 0 0 0;
+	}
+	
+	.wpinbox_move_folder_to select:focus {
+	
+		border-color: transparent;
+		color: #016087;
+		box-shadow: 0 0 0 0 transparent;
+	}
+	.wpinbox_move_folder_to button {
+		cursor: pointer;
+		position: relative;
+		top: 1px;
+		font-size: 12px;
+		padding: 2px 10px 4px 10px;
+		border-radius: 20px;
+		background: #6c757d;;
+		color: white;
+		border: 1px solid #6c757d;
+		margin: 4px 0 0 8px;
+	}
+	
+	.wpinbox_move_folder_to button:hover {
+	
+		background: #5a6268;;
+		color: white;
+		border: 1px solid #5a6268;;
+	}
+	
+	.wpinbox_in_action .wpinbox-nav{
+		width: 100%;
+	}
+	
+	.wpinbox_in_action .wpinbox-nav .breadcrumb{
+	
+		margin: 0;
+	
+	}
+	.wpinbox_list .ab-dir.ab-new {
+		background-color: rgba(233,212,96,0.3);
+		border-radius: 10px;
+	}
+	.wpinbox_log ul li.premium-features,
+	.wpinbox_log ul li.addon-features,
+	.wpinbox_log ul li.promotions {
+		border-top: 1px solid #17a2b8;
+		margin: 0px 0 40px;
+	}
+	.wpinbox_log ul li.premium-features:after,
+	.wpinbox_log ul li.addon-features:after,
+	.wpinbox_log ul li.promotions:after {
+		content: "Premium Features";
+		background-color: #17a2b8;
+		color: #fff;
+		font-size: 12px;
+		padding: 0px 12px 2px;
+		float: right;
+		
+	}
+
+	.wpinbox_log ul li.addon-features {
+		float: right;
+		margin: 10px 0 0 0;
+	}
+	.wpinbox_log ul li.addon-features + li a {
+		display: block;
+		margin: 30px 0;
+		width:100%;
+		text-align:center;
+	}	
+	.wpinbox_log ul li.addon-features:after {
+		content: "Tabs Plugin for Docs";
+	}	
+	.wpinbox_log ul li.promotions:after {
+		content: "More Plugins";
+	}
+	.wpinbox_log ul li input[type="color"] {
+		padding: 0;
+		cursor: pointer;
+		position: relative;
+		top: 4px;
+		border: 0;
+		border-radius: 10px;
+		height: 18px;
+		width: 18px;
+		margin: 0 10px 0 0;
+	}
+	a.security_level{
+		font-size:12px;
+		top:5px;
+	}
+	.wpinbox_android {
+		position: absolute;
+		right: 20px;
+		top: 26px;
+	}
+	.wpinbox-options ul li a,
+	a.wpinbox-tutorial{
+		float:right;
+		font-size:12px;
+		color:#17a2b8;
+		text-decoration:none;
+		position:relative;
+		top:4px;
+	}
+	.wpinbox-options ul li label{
+		width:100%;
+	}
+	.wpinbox-options ul li a:hover{
+		text-decoration:underline;
+	}
+	.inbox-attribs{
+		
+	}
+	.inbox-attribs b{
+		color:#17a2b8;
+		
+	}
+	.wpinbox-customization{
+		float:left;
+		width:100%;
+	}
+	.wpinbox-customization ul{
+		float:left;
+		width:100%;
+	}	
+	.wpinbox-customization ul li{
+		position:relative;
+		float:left;
+		width:100%;
+	}		
+	.wpinbox-customization ul li span.fa{
+		font-size:30px;
+		margin-right:20px;
+		float:left;
+	}			
+	.wpinbox-customization ul li label{
+		float:left;
+		width:60%;
+	}
+	.wpinbox-customization ul li input[type="text"]{
+		width:60px;
+		height:30px;
+	}
+	.wpinbox-customization ul li label small{
+		margin-left:10px;
+	}
+
+	.wpin_admin_msg_content .msg_main_loading img,
+	.wpin_admin_msg_content .msg_loading img{
+		width: 40px;
+		display: none;
+	}
+	.wpin_admin_msg_content .msg_loading_done
+	{
+		margin-top: 6px;
+		display: none;
+	}
+.wpin_admin_msg_content input[type="radio"]{
+		margin: 6px 0 0 -20px;
+	}
+
+	.form-control.wpin_hide{
+		display : none;
+	}

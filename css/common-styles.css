@@ -1,0 +1,373 @@
+/* CSS Document */
+
+.hides{
+
+	display:none;
+
+}
+
+.wp_inbox_message_box{
+
+	display:none;
+
+}
+
+.wp_inbox_message_box_toggle{
+
+	float:right;
+
+	cursor:pointer;
+
+}
+
+.wp_inbox_help_page{
+
+}
+
+.wp_inbox_help_page ul li a{
+
+	cursor:pointer;
+
+}
+
+
+
+
+
+
+
+.wp-inbox-messages{
+
+}
+.wp-inbox-messages .container{
+	width:100%;
+}
+
+.wp-inbox-messages button{
+
+	margin:0;
+
+}
+
+
+
+
+
+.wp-inbox-messages .content h1 {
+
+	text-align: center;
+
+}
+
+.wp-inbox-messages .content .content-footer p {
+
+	color: #6d6d6d;
+
+    font-size: 12px;
+
+    text-align: center;
+
+}
+
+.wp-inbox-messages .content .content-footer p a {
+
+	color: inherit;
+
+	font-weight: bold;
+
+}
+
+
+
+/*	--------------------------------------------------
+
+	:: Table Filter
+
+	-------------------------------------------------- */
+
+.wp-inbox-messages .panel {
+
+	border: 1px solid #ddd;
+
+	background-color: #fcfcfc;
+
+}
+
+.wp-inbox-messages .panel .btn-group {
+
+	margin: 15px 0 30px;
+
+}
+
+.wp-inbox-messages .panel .btn-group .btn {
+
+	transition: background-color .3s ease;
+
+}
+
+.wp-inbox-messages .table-filter {
+
+	background-color: #fff;
+
+	border-bottom: 1px solid #eee;
+
+	width:100%;
+
+}
+
+.wp-inbox-messages .table-filter tbody tr:hover {
+
+	cursor: pointer;
+
+	background-color: #eee;
+
+}
+
+.wp-inbox-messages .table-filter tbody tr td {
+
+	padding: 10px;
+
+	vertical-align: middle;
+
+	border-top-color: #eee;
+
+}
+
+.wp-inbox-messages .table-filter tbody tr.selected td {
+
+	background-color: #eee;
+
+}
+
+.wp-inbox-messages .table-filter tr td:first-child {
+
+	width: 38px;
+
+}
+
+.wp-inbox-messages .table-filter tr td:nth-child(2) {
+
+	width: 35px;
+
+}
+
+.wp-inbox-messages .ckbox {
+
+	position: relative;
+
+}
+
+.wp-inbox-messages .ckbox input[type="checkbox"] {
+
+	opacity: 0;
+
+}
+
+.wp-inbox-messages .ckbox label {
+
+	-webkit-user-select: none;
+
+	-moz-user-select: none;
+
+	-ms-user-select: none;
+
+	user-select: none;
+
+}
+
+.wp-inbox-messages .ckbox label:before {
+
+	content: '';
+
+	top: 1px;
+
+	left: 0;
+
+	width: 18px;
+
+	height: 18px;
+
+	display: block;
+
+	position: absolute;
+
+	border-radius: 2px;
+
+	border: 1px solid #bbb;
+
+	background-color: #fff;
+
+}
+
+.wp-inbox-messages .ckbox input[type="checkbox"]:checked + label:before {
+
+	border-color: #2BBCDE;
+
+	background-color: #2BBCDE;
+
+}
+
+.wp-inbox-messages .ckbox input[type="checkbox"]:checked + label:after {
+
+	top: 3px;
+
+	left: 3.5px;
+
+	content: '\e013';
+
+	color: #fff;
+
+	font-size: 11px;
+
+	font-family: 'Glyphicons Halflings';
+
+	position: absolute;
+
+}
+
+.wp-inbox-messages .table-filter .star {
+
+	color: #ccc;
+
+	text-align: center;
+
+	display: block;
+
+}
+
+.wp-inbox-messages .table-filter .star.star-checked {
+
+	color: #F0AD4E;
+
+}
+
+.wp-inbox-messages .table-filter .star:hover {
+
+	color: #ccc;
+
+}
+
+.wp-inbox-messages .table-filter .star.star-checked:hover {
+
+	color: #F0AD4E;
+
+}
+
+.wp-inbox-messages .table-filter .media-photo {
+
+	width: 35px;
+
+}
+
+.wp-inbox-messages .table-filter .media-bodi {
+
+    display: block;
+	margin-left: 15px;
+
+    /* Had to use this style to force the div to expand (wasn't necessary with my bootstrap version 3.3.6) */
+
+}
+
+.wp-inbox-messages .table-filter .media-meta {
+
+	font-size: 11px;
+
+	color: #999;
+
+}
+
+.wp-inbox-messages .table-filter .media .title {
+
+	color: #2BBCDE;
+
+	font-size: 14px;
+
+	font-weight: bold;
+
+	line-height: normal;
+
+	margin: 0;
+
+}
+
+.wp-inbox-messages .table-filter .media .title span {
+
+	font-size: .8em;
+
+	margin-right: 20px;
+
+}
+
+.wp-inbox-messages .table-filter .media .title span.pagado {
+
+	color: #5cb85c;
+
+}
+
+.wp-inbox-messages .table-filter .media .title span.pendiente {
+
+	color: #f0ad4e;
+
+}
+
+.wp-inbox-messages .table-filter .media .title span.cancelado {
+
+	color: #d9534f;
+
+}
+
+.wp-inbox-messages .table-filter .media .summary {
+
+	font-size: 14px;
+
+}
+
+.clear-fix{
+	clear:both;
+}
+
+#wp_inbox_chat_notify{
+
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	width: 300px;
+	height: 100px;
+	background-color: #12368e;
+	z-index: 9999999999;
+	border-radius: 10px;
+	display: none;
+}
+
+#wp_inbox_chat_notify .title{
+	color: white;
+	margin: 10px 0 5px 10px;
+	font-size: 20px;
+}
+
+#wp_inbox_chat_notify .msg{
+	color: white;
+	margin: 10px 10px 5px 10px;
+	font-size: 15px;
+}
+
+#wp_inbox_chat_notify .msg a{
+	color: white;
+	font-size: 15px;
+	text-decoration: underline;
+}
+
+#wp_inbox_chat_notify span{
+	color: white;
+	font-size: 25px;
+	position: absolute;
+	right: 10px;
+	top: 0px;
+	display: inline-block;
+	cursor: pointer;
+	user-select: none;
+}
+
+.wp_inbox_message_success{
+	margin-top: 10px;
+}
